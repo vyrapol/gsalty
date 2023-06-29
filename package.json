@@ -12,7 +12,8 @@
     "@contextmenu/core": "^1.1.2",
     "@contextmenu/vue": "^1.1.2",
     "gsap": "^3.11.5",
-    "vue": "^3.2.47"
+    "vue": "^3.2.47",
+    "vuedraggable": "^4.1.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
