@@ -3,6 +3,7 @@ import { onMounted } from "vue";
 import HelloWorld from "./components/HelloWorld.vue";
 import BasePipeline from "./components/BasePipeline.vue";
 import BaseKanban from './components/BaseKanban.vue'
+import BasePage from './components/BasePage.vue'
 import gsap from "gsap";
 
 onMounted(() => {
@@ -42,6 +43,7 @@ onMounted(() => {
   <!-- <BaseConfig /> -->
   <!-- <BasePipeline /> -->
   <BaseKanban />
+  <!-- <BasePage /> -->
   <!-- SECTION -->
   <!-- GRID
   <section>
