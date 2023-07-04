@@ -1,17 +1,17 @@
 <template>
   <section class="grid grid-cols-3 gap-4">
     <div class="kanban-card">
-      <div class="w-28 h-[21px] justify-start items-center gap-2 inline-flex">
-        <div class="w-[19px] h-2 bg-blue-600 rounded-xl"></div>
-        <div class="text-[16px] font-medium capitalize">
+      <div class="title">
+        <div class="w-[19px] h-2 bg-blue-600 rounded-xl"></div>-
+        <div class="text-zinc-900 text-[16px] font-medium capitalize">
           applied
         </div>
-        <div class="text-[16px] font-medium capitalize">
+        <div class="text-zinc-900 text-[16px] font-medium capitalize">
           ({{ applied.length }})
         </div>
       </div>
       <div class="kanban-item-container">
-        <draggable :list="applied" itemKey="name" group="people" :move="doMove" data-index="0">
+        <draggable :list="applied" itemKey="name" group="people" class="h-full" :move="doMove" data-index="0">
           <template #item="{ element, i }">
             <div
               ref="target"
@@ -102,7 +102,7 @@
         </div>
       </div>
       <div class="kanban-item-container">
-        <draggable :list="test" itemKey="name" group="people" :move="doMove" data-index="1">
+        <draggable :list="test" itemKey="name" group="people" class="h-full" :move="doMove" data-index="1">
           <template #item="{ element, i }">
             <div
               ref="target"
@@ -193,7 +193,7 @@
         </div>
       </div>
       <div class="kanban-item-container">
-        <draggable :list="shortList" itemKey="name" group="people" :move="doMove" data-index="2">
+        <draggable :list="shortList" itemKey="name" group="people" class="h-full" :move="doMove" data-index="2">
           <template #item="{ element, i }">
             <div
               ref="target"
@@ -374,7 +374,7 @@ onMounted(() => {
 }
 
 .kanban-item-container {
-  @apply bg-gray-100 rounded-lg p-2 h-full flex flex-col gap-2;
+  @apply bg-gray-100 p-2 h-full flex flex-col gap-2;
 }
 
 .kanban-item {
@@ -384,5 +384,20 @@ onMounted(() => {
 .context-menu {
   opacity: 0;
   position: absolute;
+}
+
+.title {
+  @apply w-full min-h-[21px] justify-start items-center gap-2 inline-flex sticky -top-0.5 z-10 bg-gray-100 rounded-t-lg p-2 before:bg-gray-500;
+}
+
+.title::before {
+  content: '';
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  opacity: 0.2;
 }
 </style>
