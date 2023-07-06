@@ -1,11 +1,13 @@
 <script setup lang="ts">
-import { onMounted } from "vue";
+import { onMounted, ref } from "vue";
 import HelloWorld from "./components/HelloWorld.vue";
 import BasePipeline from "./components/BasePipeline.vue";
-import BaseKanban from './components/BaseKanban.vue'
-import BasePage from './components/BasePage.vue'
+import BaseKanban from "./components/BaseKanban.vue";
+import BasePage from "./components/BasePage.vue";
 import gsap from "gsap";
+import data from "./kanban.json";
 
+const items = ref(data);
 onMounted(() => {
   // gsap.fromTo(
   //   ".box",
@@ -42,7 +44,15 @@ onMounted(() => {
   <HelloWorld msg="Vite + Vue" /> -->
   <!-- <BaseConfig /> -->
   <!-- <BasePipeline /> -->
-  <BaseKanban />
+  <BaseKanban :items="items">
+    <template #action>
+      <ul class="bg-zinc-100 dark:bg-blue-400 p-2 text-zinc-700 dark:text-white rounded-lg">
+        <li>Move</li>
+        <hr class="my-1" />
+        <li>Fails</li>
+      </ul>
+    </template>
+  </BaseKanban>
   <!-- <BasePage /> -->
   <!-- SECTION -->
   <!-- GRID

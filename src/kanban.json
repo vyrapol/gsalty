@@ -1,0 +1,391 @@
+[
+    {
+        "hr_recruitment_pipeline_step": {
+            "title": "applied",
+            "color": "#0077FF"
+        },
+        "boards": [
+            {
+                "employee_info": {
+                    "id": 20,
+                    "full_name": "l",
+                    "phone_number": "012234522",
+                    "report_to_info": { "id": 5, "full_name": "section_owner", "employee_id": "section_owner" },
+                    "department_info": { "id": 1, "name": "technology" },
+                    "unit_info": { "id": 3, "name": "digitization" },
+                    "employee_id": "j",
+                    "job_info": { "id": 1, "name": "developer" },
+                    "employment_status_info": { "id": 1, "name": "New Hired" },
+                    "office_location_info": { "id": 1, "name": "Head Office" },
+                    "employment_date": "2023-01-01",
+                    "work_email": "user098@example.com",
+                    "employment_type_info": { "id": 1, "name": "Male" },
+                    "job_category_info": { "id": 1, "name": "Male" },
+                    "contract_type_info": { "id": 1, "name": "Male" },
+                    "horizontal_report_to_info": null,
+                    "file_info": null,
+                    "tags": "A-0001"
+                },
+                "tags": "Sok Sanratana",
+                "tasks": [
+                    {
+                        "name": "Phone Call"
+                    },
+                    {
+                        "name": "Phone Call"
+                    }
+                ]
+            },
+            {
+                "employee_info": {
+                    "id": 20,
+                    "full_name": "l",
+                    "phone_number": "012234522",
+                    "report_to_info": { "id": 5, "full_name": "section_owner", "employee_id": "section_owner" },
+                    "department_info": { "id": 1, "name": "technology" },
+                    "unit_info": { "id": 3, "name": "digitization" },
+                    "employee_id": "j",
+                    "job_info": { "id": 1, "name": "developer" },
+                    "employment_status_info": { "id": 1, "name": "New Hired" },
+                    "office_location_info": { "id": 1, "name": "Head Office" },
+                    "employment_date": "2023-01-01",
+                    "work_email": "user098@example.com",
+                    "employment_type_info": { "id": 1, "name": "Male" },
+                    "job_category_info": { "id": 1, "name": "Male" },
+                    "contract_type_info": { "id": 1, "name": "Male" },
+                    "horizontal_report_to_info": null,
+                    "file_info": null,
+                    "tags": "A-0001"
+                },
+                "tags": "Sok Sanratana",
+                "tasks": [
+                    {
+                        "name": "Phone Call"
+                    },
+                    {
+                        "name": "Phone Call"
+                    }
+                ]
+            },
+            {
+                "employee_info": {
+                    "id": 20,
+                    "full_name": "l",
+                    "phone_number": "012234522",
+                    "report_to_info": { "id": 5, "full_name": "section_owner", "employee_id": "section_owner" },
+                    "department_info": { "id": 1, "name": "technology" },
+                    "unit_info": { "id": 3, "name": "digitization" },
+                    "employee_id": "j",
+                    "job_info": { "id": 1, "name": "developer" },
+                    "employment_status_info": { "id": 1, "name": "New Hired" },
+                    "office_location_info": { "id": 1, "name": "Head Office" },
+                    "employment_date": "2023-01-01",
+                    "work_email": "user098@example.com",
+                    "employment_type_info": { "id": 1, "name": "Male" },
+                    "job_category_info": { "id": 1, "name": "Male" },
+                    "contract_type_info": { "id": 1, "name": "Male" },
+                    "horizontal_report_to_info": null,
+                    "file_info": null,
+                    "tags": "A-0001"
+                },
+                "tags": "Sok Sanratana",
+                "tasks": [
+                    {
+                        "name": "Phone Call"
+                    },
+                    {
+                        "name": "Phone Call"
+                    }
+                ]
+            },
+            {
+                "employee_info": {
+                    "id": 20,
+                    "full_name": "l",
+                    "phone_number": "012234522",
+                    "report_to_info": { "id": 5, "full_name": "section_owner", "employee_id": "section_owner" },
+                    "department_info": { "id": 1, "name": "technology" },
+                    "unit_info": { "id": 3, "name": "digitization" },
+                    "employee_id": "j",
+                    "job_info": { "id": 1, "name": "developer" },
+                    "employment_status_info": { "id": 1, "name": "New Hired" },
+                    "office_location_info": { "id": 1, "name": "Head Office" },
+                    "employment_date": "2023-01-01",
+                    "work_email": "user098@example.com",
+                    "employment_type_info": { "id": 1, "name": "Male" },
+                    "job_category_info": { "id": 1, "name": "Male" },
+                    "contract_type_info": { "id": 1, "name": "Male" },
+                    "horizontal_report_to_info": null,
+                    "file_info": null,
+                    "tags": "A-0001"
+                },
+                "tags": "Sok Sanratana",
+                "tasks": [
+                    {
+                        "name": "Phone Call"
+                    },
+                    {
+                        "name": "Phone Call"
+                    }
+                ]
+            },
+            {
+                "employee_info": {
+                    "id": 20,
+                    "full_name": "l",
+                    "phone_number": "012234522",
+                    "report_to_info": { "id": 5, "full_name": "section_owner", "employee_id": "section_owner" },
+                    "department_info": { "id": 1, "name": "technology" },
+                    "unit_info": { "id": 3, "name": "digitization" },
+                    "employee_id": "j",
+                    "job_info": { "id": 1, "name": "developer" },
+                    "employment_status_info": { "id": 1, "name": "New Hired" },
+                    "office_location_info": { "id": 1, "name": "Head Office" },
+                    "employment_date": "2023-01-01",
+                    "work_email": "user098@example.com",
+                    "employment_type_info": { "id": 1, "name": "Male" },
+                    "job_category_info": { "id": 1, "name": "Male" },
+                    "contract_type_info": { "id": 1, "name": "Male" },
+                    "horizontal_report_to_info": null,
+                    "file_info": null,
+                    "tags": "A-0001"
+                },
+                "tags": "Sok Sanratana",
+                "tasks": [
+                    {
+                        "name": "Phone Call"
+                    },
+                    {
+                        "name": "Phone Call"
+                    }
+                ]
+            },
+            {
+                "employee_info": {
+                    "id": 20,
+                    "full_name": "l",
+                    "phone_number": "012234522",
+                    "report_to_info": { "id": 5, "full_name": "section_owner", "employee_id": "section_owner" },
+                    "department_info": { "id": 1, "name": "technology" },
+                    "unit_info": { "id": 3, "name": "digitization" },
+                    "employee_id": "j",
+                    "job_info": { "id": 1, "name": "developer" },
+                    "employment_status_info": { "id": 1, "name": "New Hired" },
+                    "office_location_info": { "id": 1, "name": "Head Office" },
+                    "employment_date": "2023-01-01",
+                    "work_email": "user098@example.com",
+                    "employment_type_info": { "id": 1, "name": "Male" },
+                    "job_category_info": { "id": 1, "name": "Male" },
+                    "contract_type_info": { "id": 1, "name": "Male" },
+                    "horizontal_report_to_info": null,
+                    "file_info": null,
+                    "tags": "A-0001"
+                },
+                "tags": "Sok Sanratana",
+                "tasks": [
+                    {
+                        "name": "Phone Call"
+                    },
+                    {
+                        "name": "Phone Call"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "hr_recruitment_pipeline_step": {
+            "title": "test",
+            "color": "#F9A01B"
+        },
+        "boards": [
+            {
+                "employee_info": {
+                    "id": 20,
+                    "full_name": "i",
+                    "phone_number": "012234522",
+                    "report_to_info": { "id": 5, "full_name": "section_owner", "employee_id": "section_owner" },
+                    "department_info": { "id": 1, "name": "technology" },
+                    "unit_info": { "id": 3, "name": "digitization" },
+                    "employee_id": "j",
+                    "job_info": { "id": 1, "name": "developer" },
+                    "employment_status_info": { "id": 1, "name": "New Hired" },
+                    "office_location_info": { "id": 1, "name": "Head Office" },
+                    "employment_date": "2023-01-01",
+                    "work_email": "user098@example.com",
+                    "employment_type_info": { "id": 1, "name": "Male" },
+                    "job_category_info": { "id": 1, "name": "Male" },
+                    "contract_type_info": { "id": 1, "name": "Male" },
+                    "horizontal_report_to_info": null,
+                    "file_info": null,
+                    "tags": "A-0002"
+                },
+                "tags": "Aok Sovana",
+                "tasks": [
+                    {
+                        "name": "Interview"
+                    },
+                    {
+                        "name": "Email"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "hr_recruitment_pipeline_step": {
+            "title": "short list",
+            "color": "#A9CB37"
+        },
+        "boards": [
+            {
+                "employee_info": {
+                    "id": 20,
+                    "full_name": "h",
+                    "phone_number": "012234522",
+                    "report_to_info": { "id": 5, "full_name": "section_owner", "employee_id": "section_owner" },
+                    "department_info": { "id": 1, "name": "technology" },
+                    "unit_info": { "id": 3, "name": "digitization" },
+                    "employee_id": "j",
+                    "job_info": { "id": 1, "name": "developer" },
+                    "employment_status_info": { "id": 1, "name": "New Hired" },
+                    "office_location_info": { "id": 1, "name": "Head Office" },
+                    "employment_date": "2023-01-01",
+                    "work_email": "user098@example.com",
+                    "employment_type_info": { "id": 1, "name": "Male" },
+                    "job_category_info": { "id": 1, "name": "Male" },
+                    "contract_type_info": { "id": 1, "name": "Male" },
+                    "horizontal_report_to_info": null,
+                    "file_info": null,
+                    "tags": "A-0003"
+                },
+                "tags": "Tov Na",
+                "tasks": [
+                    {
+                        "name": "Phone Call"
+                    },
+                    {
+                        "name": "Email"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "hr_recruitment_pipeline_step": {
+            "title": "writing test",
+            "color": "#8D8D8D"
+        },
+        "boards": [
+            {
+                "employee_info": {
+                    "id": 20,
+                    "full_name": "e",
+                    "phone_number": "012234522",
+                    "report_to_info": { "id": 5, "full_name": "section_owner", "employee_id": "section_owner" },
+                    "department_info": { "id": 1, "name": "technology" },
+                    "unit_info": { "id": 3, "name": "digitization" },
+                    "employee_id": "j",
+                    "job_info": { "id": 1, "name": "developer" },
+                    "employment_status_info": { "id": 1, "name": "New Hired" },
+                    "office_location_info": { "id": 1, "name": "Head Office" },
+                    "employment_date": "2023-01-01",
+                    "work_email": "user098@example.com",
+                    "employment_type_info": { "id": 1, "name": "Male" },
+                    "job_category_info": { "id": 1, "name": "Male" },
+                    "contract_type_info": { "id": 1, "name": "Male" },
+                    "horizontal_report_to_info": null,
+                    "file_info": null,
+                    "tags": "A-0004"
+                },
+                "tags": "Sok Sabay",
+                "tasks": [
+                    {
+                        "name": "Phone Call"
+                    },
+                    {
+                        "name": "Email"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "hr_recruitment_pipeline_step": {
+            "title": "selected",
+            "color": "#24CDBA"
+        },
+        "boards": [
+            {
+                "employee_info": {
+                    "id": 20,
+                    "full_name": "a",
+                    "phone_number": "012234522",
+                    "report_to_info": { "id": 5, "full_name": "section_owner", "employee_id": "section_owner" },
+                    "department_info": { "id": 1, "name": "technology" },
+                    "unit_info": { "id": 3, "name": "digitization" },
+                    "employee_id": "j",
+                    "job_info": { "id": 1, "name": "developer" },
+                    "employment_status_info": { "id": 1, "name": "New Hired" },
+                    "office_location_info": { "id": 1, "name": "Head Office" },
+                    "employment_date": "2023-01-01",
+                    "work_email": "user098@example.com",
+                    "employment_type_info": { "id": 1, "name": "Male" },
+                    "job_category_info": { "id": 1, "name": "Male" },
+                    "contract_type_info": { "id": 1, "name": "Male" },
+                    "horizontal_report_to_info": null,
+                    "file_info": null,
+                    "tags": "A-0005"
+                },
+                "tags": "Leak Klun",
+                "tasks": [
+                    {
+                        "name": "Phone Call"
+                    },
+                    {
+                        "name": "Email"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "hr_recruitment_pipeline_step": {
+            "title": "rejected",
+            "color": "#DE002C"
+        },
+        "boards": [
+            {
+                "employee_info": {
+                    "id": 20,
+                    "full_name": "b",
+                    "phone_number": "012234522",
+                    "report_to_info": { "id": 5, "full_name": "section_owner", "employee_id": "section_owner" },
+                    "department_info": { "id": 1, "name": "technology" },
+                    "unit_info": { "id": 3, "name": "digitization" },
+                    "employee_id": "j",
+                    "job_info": { "id": 1, "name": "developer" },
+                    "employment_status_info": { "id": 1, "name": "New Hired" },
+                    "office_location_info": { "id": 1, "name": "Head Office" },
+                    "employment_date": "2023-01-01",
+                    "work_email": "user098@example.com",
+                    "employment_type_info": { "id": 1, "name": "Male" },
+                    "job_category_info": { "id": 1, "name": "Male" },
+                    "contract_type_info": { "id": 1, "name": "Male" },
+                    "horizontal_report_to_info": null,
+                    "file_info": null,
+                    "tags": "A-0006"
+                },
+                "tags": "Samai Tov",
+                "tasks": [
+                    {
+                        "name": "Phone Call"
+                    },
+                    {
+                        "name": "Email"
+                    }
+                ]
+            }
+        ]
+    }
+]
