@@ -6,6 +6,7 @@ import BaseKanban from "./components/BaseKanban.vue";
 import BasePage from "./components/BasePage.vue";
 import gsap from "gsap";
 import data from "./kanban.json";
+import BaseReveal from "./components/BaseReveal.vue";
 
 const items = ref(data);
 const buttonenabled = ref(true);
@@ -29,70 +30,71 @@ onMounted(() => {
   //   yoyo: true,
   //   scale: 1 / 2,
   // });
-  const themeToggleDarkIcon = document.getElementById("theme-toggle-dark-icon");
-  const themeToggleLightIcon = document.getElementById(
-    "theme-toggle-light-icon"
-  );
+  // const themeToggleDarkIcon = document.getElementById("theme-toggle-dark-icon");
+  // const themeToggleLightIcon = document.getElementById(
+  //   "theme-toggle-light-icon"
+  // );
 
   // Change the icons inside the button based on previous settings
-  if (
-    localStorage.getItem("color-theme") === "dark" ||
-    (!("color-theme" in localStorage) &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches)
-  ) {
-    themeToggleLightIcon.classList.remove("hidden");
-  } else {
-    themeToggleDarkIcon.classList.remove("hidden");
-  }
+  // if (
+  //   localStorage.getItem("color-theme") === "dark" ||
+  //   (!("color-theme" in localStorage) &&
+  //     window.matchMedia("(prefers-color-scheme: dark)").matches)
+  // ) {
+  //   themeToggleLightIcon.classList.remove("hidden");
+  // } else {
+  //   themeToggleDarkIcon.classList.remove("hidden");
+  // }
 
-  var themeToggleBtn = document.getElementById("theme-toggle");
+  // var themeToggleBtn = document.getElementById("theme-toggle");
 
-  themeToggleBtn.addEventListener("click", function () {
-    console.log(buttonenabled.value, "enabel please");
-    // toggle icons inside button
-    themeToggleDarkIcon.classList.toggle("hidden");
-    themeToggleLightIcon.classList.toggle("hidden");
+  // themeToggleBtn.addEventListener("click", function () {
+  //   console.log(buttonenabled.value, "enabel please");
+  //   // toggle icons inside button
+  //   themeToggleDarkIcon.classList.toggle("hidden");
+  //   themeToggleLightIcon.classList.toggle("hidden");
 
-    if (!buttonenabled.value) return;
-    buttonenabled.value = false;
+  //   if (!buttonenabled.value) return;
+  //   buttonenabled.value = false;
 
-    // if set via local storage previously
-    if (localStorage.getItem("color-theme")) {
-      if (localStorage.getItem("color-theme") === "light") {
-        document.documentElement.classList.add("dark");
-        localStorage.setItem("color-theme", "dark");
-      } else {
-        document.documentElement.classList.remove("dark");
-        localStorage.setItem("color-theme", "light");
-      }
+  //   // if set via local storage previously
+  //   if (localStorage.getItem("color-theme")) {
+  //     if (localStorage.getItem("color-theme") === "light") {
+  //       document.documentElement.classList.add("dark");
+  //       localStorage.setItem("color-theme", "dark");
+  //     } else {
+  //       document.documentElement.classList.remove("dark");
+  //       localStorage.setItem("color-theme", "light");
+  //     }
 
-      // if NOT set via local storage previously
-    } else {
-      if (document.documentElement.classList.contains("dark")) {
-        document.documentElement.classList.remove("dark");
-        localStorage.setItem("color-theme", "light");
-      } else {
-        document.documentElement.classList.add("dark");
-        localStorage.setItem("color-theme", "dark");
-      }
-    }
+  //     // if NOT set via local storage previously
+  //   } else {
+  //     if (document.documentElement.classList.contains("dark")) {
+  //       document.documentElement.classList.remove("dark");
+  //       localStorage.setItem("color-theme", "light");
+  //     } else {
+  //       document.documentElement.classList.add("dark");
+  //       localStorage.setItem("color-theme", "dark");
+  //     }
+  //   }
 
-    document.querySelector(".clip").innerHTML =
-      document.querySelector("body .container")?.outerHTML;
-    document.querySelector(".clip")?.classList.add("anim"); //Animate the clip
-    setTimeout(function () {
-      document.querySelector("body .container").innerHTML =
-        document.querySelector(".clip .container").innerHTML;
-      document.querySelector(".clip").classList.remove("anim");
-      document.querySelector(".clip").innerHTML = "";
-      buttonenabled.value = true;
-    }, 1000);
-  });
+  //   document.querySelector(".clip").innerHTML =
+  //     document.querySelector("body .container")?.outerHTML;
+  //   document.querySelector(".clip")?.classList.add("anim"); //Animate the clip
+  //   setTimeout(function () {
+  //     document.querySelector("body .container").innerHTML =
+  //       document.querySelector(".clip .container").innerHTML;
+  //     document.querySelector(".clip").classList.remove("anim");
+  //     document.querySelector(".clip").innerHTML = "";
+  //     buttonenabled.value = true;
+  //   }, 1000);
+  // });
 });
 </script>
 
 <template>
-  <button
+  <!-- DARK MODE BUTTON -->
+  <!-- <button
     id="theme-toggle"
     type="button"
     class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 z-10 top-0 fixed"
@@ -121,8 +123,8 @@ onMounted(() => {
         clip-rule="evenodd"
       ></path>
     </svg>
-  </button>
-  <div class="container">
+  </button> -->
+  <!-- <div class="container">
     <BaseKanban :items="items">
       <template #action>
         <ul
@@ -135,7 +137,7 @@ onMounted(() => {
       </template>
     </BaseKanban>
   </div>
-  <div class="clip"></div>
+  <div class="clip"></div> -->
 
   <!-- <div class="flex justify-center">
     <a href="https://vitejs.dev" target="_blank">
@@ -173,6 +175,8 @@ onMounted(() => {
       </section>
     </div>
   </section> -->
+  <!-- REVEAL ELEMENT ANIMATION -->
+  <BaseReveal />
 </template>
 
 <style scoped>

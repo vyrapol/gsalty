@@ -13,8 +13,10 @@
   "dependencies": {
     "@contextmenu/core": "^1.1.2",
     "@contextmenu/vue": "^1.1.2",
+    "@popperjs/core": "^2.11.8",
     "gsap": "^3.11.5",
     "storybook-addon-vue-slots": "^0.9.17",
+    "v-calendar": "^3.0.3",
     "vue": "^3.2.47",
     "vuedraggable": "^4.1.0"
   },
